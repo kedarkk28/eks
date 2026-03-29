@@ -32,3 +32,18 @@ Verify your 3 worker nodes are Ready:
  
 ```bash
 kubectl get nodes
+```
+---
+### 5. Apply the yaml manifest files
+
+```bash
+kubectl apply -f nginx-deployment.yaml
+kubectl apply -f nginx-service.yaml
+```
+---
+### 6. Check the resources created
+
+```bash
+kubectl get all
+```
+---
